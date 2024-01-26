@@ -8,7 +8,7 @@ type MovieListProps = {
 
 const MovieList = ({movieList}: MovieListProps) => {
     return (
-        <Wrap>
+        <Wrap justify={'center'} p={4} m={2} spacing={'50px'}>
             {
                 movieList.map((el: Movie) => {
                     return (

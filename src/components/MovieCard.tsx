@@ -1,4 +1,6 @@
-import { Card, CardBody, CardHeader, Heading, Image, Text, VStack } from "@chakra-ui/react";
+import { Card, CardBody, CardHeader,
+    Heading, Image, Text,
+    VStack, LinkBox, LinkOverlay } from "@chakra-ui/react";
 import { Movie } from "../types";
 
 type MovieCardProps = {
@@ -7,15 +9,21 @@ type MovieCardProps = {
 
 const MovieCard = ({ movie }: MovieCardProps) => {
     return (
-        <Card>
-        <Image src={movie.Poster} />
-        <VStack>
-            <CardHeader><Heading as={'h2'} size={'md'}>{movie.Title}</Heading></CardHeader>
-            <CardBody>
-                <Text>{movie.Year} - {movie.Type}</Text>
-            </CardBody>
-        </VStack>
-        </Card>
+        <LinkBox>
+            <Card>
+                <Image src={movie.Poster} />
+                <VStack>
+                    <CardHeader>
+                        <LinkOverlay href={`/movies/${movie.imdbID}`}>
+                            <Heading as={'h2'} size={'md'}>{movie.Title}</Heading>
+                        </LinkOverlay>
+                    </CardHeader>
+                    <CardBody>
+                        <Text>{movie.Year} - {movie.Type}</Text>
+                    </CardBody>
+                </VStack>
+            </Card>
+        </LinkBox>
     );
 };
 
