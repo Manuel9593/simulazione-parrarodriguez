@@ -1,8 +1,7 @@
 import axios from "axios"
 
 const getMovies = async () => {
-    console.log(axios.get('?s=day'))
-    return (await axios.get('?s=day')).data
+    return (await axios.get(`?s=day&api_key=${process.env.OMDB_APIKEY}`)).data
 }
 
 export default getMovies

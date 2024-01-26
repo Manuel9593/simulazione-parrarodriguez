@@ -21,27 +21,27 @@ Completate le attività fare un merge sulla branch principale.
 Creare una nuova branch 'part-2' e lavorare su quella.
 Completate le attività fare un merge sulla branch principale.
 
-- [ ] Creare due funzioni per la chiamata alle API:
-  -> [ ] getMovies: nessun parametro, restituisce l'elenco dei movie
-  -> [ ] getDetailMovie: parametro id, restituisce i dettagli di un movie
+- [x] Creare due funzioni per la chiamata alle API:
+  - [x] getMovies: nessun parametro, restituisce l'elenco dei movie
+  - [x] getDetailMovie: parametro id, restituisce i dettagli di un movie
 
 ## Terza parte
 
 Creare una nuova branch 'part-3' e lavorare su quella.
 Completate le attività fare un merge sulla branch principale.
 
-- [ ] Prevedere per l'applicatione un Header comune con logo e relativo link per tornare in home page
-- [ ] Creare una pagina di elenco dei movie:
-  -> [ ] Creare un loader per acquisire l'elenco dei movie con axios.
-  -> [ ] Componente contenitore dell'elenco dei movie (es. grid) MovieList
-  -> [ ] Componente per la visualizzazione di un singolo movie (es. card) MovieCard
+- [x] Prevedere per l'applicatione un Header comune con logo e relativo link per tornare in home page
+- [x] Creare una pagina di elenco dei movie:
+  - [x] Creare un loader per acquisire l'elenco dei movie con axios.
+  - [x] Componente contenitore dell'elenco dei movie (es. grid) MovieList
+  - [x] Componente per la visualizzazione di un singolo movie (es. card) MovieCard
 
 ## Quarta parte
 
 Creare una nuova branch 'part-4' e lavorare su quella.
 Completate le attività fare un merge sulla branch principale.
 
-- [ ] Creare una pagina/rotta per la visualizzazione dei dettagli di un movie
-  -> [ ] Creare un loader per acquisire i dettagli di un movie con axios.
-  -> [ ] Creare un componente per la visualizzazione dei dettagli di un movie MovieDetail
-  -> [ ] Modificare la pagina di elenco dei movie in modo che al click su un movie si vada alla pagina di dettaglio (passare come parametro l'id del movie nella URL)
+- [x] Creare una pagina/rotta per la visualizzazione dei dettagli di un movie
+  - [x] Creare un loader per acquisire i dettagli di un movie con axios.
+  - [x] Creare un componente per la visualizzazione dei dettagli di un movie MovieDetail
+  - [x] Modificare la pagina di elenco dei movie in modo che al click su un movie si vada alla pagina di dettaglio (passare come parametro l'id del movie nella URL)
