@@ -1,13 +1,18 @@
 import { createBrowserRouter } from "react-router-dom";
-import App from "../pages/App";
+import Home from "../pages/Home";
 import Error from "../pages/error/Error";
-
+import Movies, { loader as moviesLoader} from "../pages/Movies"
 
 const router = createBrowserRouter([
     {
         path: '/',
-        element: <App />,
-        errorElement: <Error />
+        element: <Home />,
+        errorElement: <Error />,
+    },
+    {
+        path: '/movies',
+        element: <Movies />,
+        loader: moviesLoader
     }
 ])
 

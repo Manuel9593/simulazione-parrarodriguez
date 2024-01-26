@@ -1,7 +1,7 @@
-import axios from "axios"
+import { instance } from "./default"
 
-const getMovies = async (id: string | number) => {
-    return (await axios.get(`?i=${id}&api_key=${process.env.OMDB_APIKEY}`)).data
+const getDetailMovie = async (id: string | number) => {
+    return (await instance.get(`?i=${id}&apikey=${import.meta.env.VITE_OMDB_APIKEY}`)).data
 }
 
-export default getMovies
+export default getDetailMovie

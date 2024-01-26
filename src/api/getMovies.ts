@@ -1,7 +1,7 @@
-import axios from "axios"
+import { instance } from "./default"
 
 const getMovies = async () => {
-    return (await axios.get(`?s=day&api_key=${process.env.OMDB_APIKEY}`)).data
+    return (await instance.get(`?s=day&apikey=${import.meta.env.VITE_OMBD_APIKEY}`)).data
 }
 
 export default getMovies
