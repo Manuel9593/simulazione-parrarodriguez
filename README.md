@@ -7,12 +7,12 @@
 Creare una nuova branch 'part-1' e lavorare su quella.
 Completate le attività fare un merge sulla branch principale.
 
-- [ ] Aggiungere e configurare React Router
-- [ ] Configurare il router per gestire una pagina di errore
-- [ ] Installare e configurare Chakra UI
-- [ ] Insstallare e configurare Axios
-- [ ] Recuperare l'api e la chiave per accedre ai dati da <https://www.omdbapi.com> (potete usare la chiave vecchia cercando nelle vostre email 'omdb') oppure attivarne una nuova (<https://www.omdbapi.com/apikey.aspx>).
-- [ ] Invitatemi nel vostro repo creato con il fork.
+- [x] Aggiungere e configurare React Router
+- [x] Configurare il router per gestire una pagina di errore
+- [x] Installare e configurare Chakra UI
+- [x] Insstallare e configurare Axios
+- [x] Recuperare l'api e la chiave per accedre ai dati da <https://www.omdbapi.com> (potete usare la chiave vecchia cercando nelle vostre email 'omdb') oppure attivarne una nuova (<https://www.omdbapi.com/apikey.aspx>).
+- [x] Invitatemi nel vostro repo creato con il fork.
   
 *IMPORTANTE*: Eliminare dal progetto tutti i file che non vi sono necessari che fanno parte del template Vite di base.
 
